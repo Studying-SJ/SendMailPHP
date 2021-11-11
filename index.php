@@ -8,7 +8,16 @@
 	</head>
 
 	<body>
-
+		<header>
+			<!-- Navbar com logo e name -->
+				<nav class="navbar navbar-light bg-light">
+					<a class="navbar-brand" href="#">
+						<img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+						Send Mail
+					</a>
+				</nav>
+		</header>
+		
 		<div class="container">  
 
 			<div class="py-3 text-center">
@@ -16,7 +25,19 @@
 				<h2>Send Mail</h2>
 				<p class="lead">Seu app de envio de e-mails particular!</p>
 			</div>
-
+			<nav>
+				<ul class="nav nav-tabs justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Enviar e-mail</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Banco de mensagens</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">E-mails cadastrados</a>
+					</li>
+				</ul>
+			</nav>
       		<div class="row">
       			<div class="col-md-12">
   				
