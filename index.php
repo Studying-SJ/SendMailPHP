@@ -63,7 +63,33 @@
 					</div>
 				</div>
       		</div>
+			<div id="banco-mensagens" class="row">
+				<div class="col-md-12 mb-4">
+					<form action="">
+						<div class="form-group">
+							<label for="assunto">Assunto</label>
+							<input name="assunto" type="text" class="form-control" id="assunto" placeholder="Tarefas do dia">
+						</div>
+						<div class="form-group">
+							<label for="texto">Texto</label>
+							<textarea name="texto" class="form-control" id="texto" ></textarea>
+						</div>
+						<button class="btn btn-outline-primary">Salvar Mensagem</button>
+					</form>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-12">
+					<div>
+						<h5> Retirada Limpurb </h5>
+						<p>Você já mandou isso para o coletora de descartáveis?</p>
+					</div>
+				</div>
+			</div>
       	</div>
+		
+		
 
 	</body>
 </html>
