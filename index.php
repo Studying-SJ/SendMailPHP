@@ -31,7 +31,7 @@
 						<a class="nav-link active" href="#">Enviar e-mail</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Banco de mensagens</a>
+						<a class="nav-link " href="#banco-mensagens">Banco de mensagens</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">E-mails cadastrados</a>
@@ -63,27 +63,33 @@
 					</div>
 				</div>
       		</div>
-			<div id="banco-mensagens" class="row">
-				<div class="col-md-12 mb-4">
-					<form action="">
-						<div class="form-group">
-							<label for="assunto">Assunto</label>
-							<input name="assunto" type="text" class="form-control" id="assunto" placeholder="Tarefas do dia">
-						</div>
-						<div class="form-group">
-							<label for="texto">Texto</label>
-							<textarea name="texto" class="form-control" id="texto" ></textarea>
-						</div>
-						<button class="btn btn-outline-primary">Salvar Mensagem</button>
-					</form>
+			<div id="banco-mensagens">
+				<div class="row">
+					<div class="col-md-12 mb-4">
+						<form action="">
+							<div class="form-group">
+								<label for="assunto">Assunto</label>
+								<input name="assunto" type="text" class="form-control" id="assunto" placeholder="Tarefas do dia">
+							</div>
+							<div class="form-group">
+								<label for="texto">Texto</label>
+								<textarea name="texto" class="form-control" id="texto" ></textarea>
+							</div>
+							<button class="btn btn-outline-primary">Salvar Mensagem</button>
+						</form>
+					</div>
 				</div>
-			</div>
-			<hr>
-			<div class="row">
-				<div class="col-md-12">
-					<div>
-						<h5> Retirada Limpurb </h5>
-						<p>Você já mandou isso para o coletora de descartáveis?</p>
+				<div>
+					<h3 class="display-4" >Mensagens Salvas</h3>
+					<hr>
+					<div class="row">
+						
+						<div class="col-md-12">
+							<div>
+								<h5> Retirada Limpurb </h5>
+								<p>Você já mandou isso para o coletora de descartáveis?</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
