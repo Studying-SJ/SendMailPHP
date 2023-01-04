@@ -43,9 +43,9 @@
 	$mail = new PHPMailer(true);
 	try {
 			//Server settings
-			$mail->SMTPDebug = false;                      				//Enable verbose debug output
+			$mail->SMTPDebug = false;                      //Enable verbose debug output
 			$mail->isSMTP();                                            //Send using SMTP
-			$mail->Host       = 'smtp.gmail.com';                     	//Set the SMTP server to send through
+			$mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
 			$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
 			$mail->Username   = 'conta_gmail@gmail.com';			//SMTP username
 			$mail->Password   = 'crie_uma_senha_para_app_no_gmail';						    //SMTP password

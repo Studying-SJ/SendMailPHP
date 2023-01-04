@@ -28,18 +28,19 @@
 			<nav>
 				<ul class="nav nav-tabs justify-content-center">
 					<li class="nav-item">
-						<a class="nav-link " href="#" id="btn-enviar-mensagens">Enviar e-mail</a>
+						<a class="nav-link active" href="#">Enviar e-mail</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="#banco-mensagens" id="btn-banco-mensagens">Banco de mensagens</a>
+						<a class="nav-link " href="#banco-mensagens">Banco de mensagens</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">E-mails cadastrados</a>
 					</li>
 				</ul>
 			</nav>
-      		<div class="row" id="enviar-mensagens">
+      		<div class="row">
       			<div class="col-md-12">
+  				
 					<div class="card-body font-weight-bold">
 						<form action="processa_envio.php" method="post">
 							<div class="form-group">
@@ -97,15 +98,4 @@
 		
 
 	</body>
-	<script>
-		$('#myTab a').on('click', function (e) {
-			e.preventDefault()
-			$(this).tab('show')
-		})
-	let btn = document.querySelector('#btn-enviar-mensagens')
-	
-	btn.onclick = function(){
-		this.classList.add("active")
-	}
-	</script>
 </html>
